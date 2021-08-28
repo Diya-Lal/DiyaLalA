@@ -1,0 +1,26 @@
+{
+    "technicalSkills" : [
+        {
+            "type": "Languages",
+            "value": "Javascript, HTML, CSS, SCSS"
+        },
+        {
+            "type": "Frameworks",
+            "value": "Angular, Bootstrap"
+        },
+        {
+            "type": "Version Controlling",
+            "value": "Git, Github Desktop"
+        },
+        {
+            "type": "Other Technologies",
+            "value": "NodeJS, Express, MongoDb"
+        }
+    ],
+    "softSkills" : [
+        "Team Work",
+        "Time Management",
+        "Interpersonal Skills",
+        "Flexibility"
+    ]
+}
