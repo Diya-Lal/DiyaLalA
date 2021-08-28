@@ -1,0 +1,17 @@
+{
+    "interests" : [
+        {
+            "value": "Travelling",
+            "icon" : "fa fa-car"
+        },
+        {   
+            "value" : "Trekking",
+            "icon" : "fa fa-map-marker"
+        }, 
+        {
+           
+            "value": "DIY",
+            "icon" : "fas fa-hand-scissors"
+        }
+    ]
+}

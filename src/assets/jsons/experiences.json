@@ -1,0 +1,29 @@
+{
+    "experiences" : [
+        {
+            "company": "Infosys Limited",
+            "location": "Trivandrum, Kerala, India",
+            "period": "03/2019 - Present",
+            "role": "Frontend Developer",
+            "tasks" : [
+                "Expertise in Angular with hands on experience in HTML, CSS and JavaScript.",
+                "Implementation of design specifications (Adobe XD) in Angular application.",
+                "Development of responsive user interfaces that meet defined business and technical requirements.",
+                "Working closely with UX designers and product management to ensure on-time delivery in line with customer satisfaction.",
+                "Working in Agile/Scrum Development Methodology."
+
+            ]
+        },
+        {    
+            "company": "Tata Consultancy Service",
+            "location": "Kochi, Kerala, India",
+            "period": "10/2016 - 03/2019",
+            "role": "Developer",
+            "tasks" : [
+               " Developing, implementing and managing middleware for System Integration for transferring, transforming and processing data in system.",
+               " Finance message communication using SWIFT messages.",
+               " Analysis and development of message format definition."
+            ]
+        }
+    ]
+}

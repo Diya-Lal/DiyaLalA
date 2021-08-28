@@ -1,0 +1,20 @@
+{
+    "academics" : [
+        {
+            "degree": "Bachelor of Technology",
+            "subject": "Information Technology",
+            "college": "Government Engineering College, Barton Hill",
+            "location": "Trivandrum, Kerala, India",
+            "period": "08/2012 - 04/2016,",
+            "score": "CGPA : 7.84/10"
+        },
+        {
+            "degree": "Higher Secondary",
+            "subject": "Computer Science",
+            "college": "Carmel Girls' Higher Secondary School",
+            "location": "Trivandrum, Kerala, India",
+            "period": "05/2010 - 03/2012,",
+            "score": "95.4%"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "contactDetails" : [
+        {
+            "type": "Mobile",
+            "value": "(+91)8547xxxxxx",
+            "icon" : "fa fa-mobile"
+        },
+        {   "type" : "E-Mail",
+            "value" : "diyalal.a94@gmail.com",
+            "icon" : "fa fa-envelope"
+        }, 
+        {
+            "type" : "LinkedIn",
+            "value": "https://www.linkedin.com/in/diyalal/",
+            "icon" : "fab fa-linkedin"
+        },
+        {
+            "type" : "Skype",
+            "value":"live:.cid.e65ca631ade2a80a",
+            "icon" : "fab fa-skype"
+        },
+        {
+            "type" : "Address",
+            "value":"Trivandrum, Kerala, India",
+            "icon" : "fa fa-map-marker"
+        }
+    ]
+}

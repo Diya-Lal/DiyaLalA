@@ -1,0 +1,64 @@
+<!-- <div class="achievements title">
+    <h2>My Experiences</h2>
+    <div class="list" *ngFor = "let item of experiences"> 
+        <div class="list-item">
+            <h3>{{item.role}}</h3>
+            <h4>{{item.company}}</h4>
+            <div class="flex-item">
+                <h5>{{item.period}}</h5>
+                <h5 id="item-margin">{{item.location}}</h5>
+            </div>
+            <div>Tasks</div>
+            <ul>
+                <li class="tasks-lists" *ngFor="let task of item.tasks">&nbsp;&nbsp;{{task}}</li>
+            </ul>
+        </div> 
+    </div>   
+</div> -->
+<div class="achievements title">
+    <h2>My Experiences</h2>
+<div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="list"> 
+            <div class="list-item">
+                <h3>{{experiences[0]?.role}}</h3>
+                <h4>{{experiences[0]?.company}}</h4>
+                <div class="flex-item">
+                    <h5>{{experiences[0]?.period}}</h5>
+                    <h5 id="item-margin">{{experiences[0]?.location}}</h5>
+                </div>
+                <div>Tasks</div>
+                <ul>
+                    <li class="tasks-lists" *ngFor="let task of experiences[0]?.tasks">&nbsp;&nbsp;{{task}}</li>
+                </ul>
+            </div> 
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <div class="list"> 
+            <div class="list-item">
+                <h3>{{experiences[1]?.role}}</h3>
+                <h4>{{experiences[1]?.company}}</h4>
+                <div class="flex-item">
+                    <h5>{{experiences[1]?.period}}</h5>
+                    <h5 id="item-margin">{{experiences[1]?.location}}</h5>
+                </div>
+                <div>Tasks</div>
+                <ul>
+                    <li class="tasks-lists" *ngFor="let task of experiences[1]?.tasks">&nbsp;&nbsp;{{task}}</li>
+                </ul>
+            </div> 
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
