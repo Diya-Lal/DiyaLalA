@@ -4,16 +4,18 @@ body {
     background: #ebebeb   url(./assets/images/background.jpg) no-repeat;
     //background-size: cover;
     //background-position: center;
-    background-position: right;
+    background-position: 100% -5%;
     height: 100vh;
     font-size: 16px;
+    color: #042331;
+    font-family: "seguor";
 }
 
 .title {
-    color: black;
     font-size: 18px;
     width: 65%;
     font-weight: bold;
+    color: #042331;
 }
 
 h2 {
@@ -27,6 +29,7 @@ h2 {
 .table {
     display: flex;
     margin: 20px 0px;
+    color: #042331 !important;
 }
 
 .value {
@@ -39,5 +42,15 @@ h2 {
 
 .flex-item{
     display: flex;
+}
+
+@media only screen and (max-width: 360px) {
+    .table {
+        display: inline;
+        line-height: 2.5;
+    }
+    .techskills {
+        text-decoration: underline;
+    }
 }
 

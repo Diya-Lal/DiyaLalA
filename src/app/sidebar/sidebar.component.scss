@@ -85,10 +85,13 @@ label #cancel {
     left: 250px;
     opacity: 0;
     pointer-events: none;
+    position: fixed;
 }
+
 
 #check:checked ~ label #cancel {
     left: 210px;
+    position: fixed;
 }
 
 #check:checked ~ section {
