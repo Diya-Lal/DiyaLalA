@@ -1,4 +1,20 @@
 .details {
-    margin-left: 28%;
-    margin-top: -42%;
+  padding-right: 15%;
+  padding-left: 35%;
+}
+
+.details-margin-left {
+  transition: padding-left 2s ease;
+}
+
+.details-margin-right {
+  padding-left: 20%;
+  transition: padding-left 2s ease;
+}
+
+.footer {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+  cursor: pointer;
 }

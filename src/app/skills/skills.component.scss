@@ -1,9 +1,14 @@
 h3 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 ul {
-    list-style-type: none;
-    font-size: 16px;
-  }
+  list-style-type: none;
+  font-size: 16px;
+}
+
+#skills {
+  height: 100vh;
+  padding-top: 10%;
+  text-align: justify;
+}

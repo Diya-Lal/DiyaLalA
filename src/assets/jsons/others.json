@@ -1,16 +1,12 @@
 {
-    "academicProject" : {
-        "title": "Preference Based Service Recommendation System (PBSR)",
-        "description":"The Project focused on providing recommendations to users based on a user-based collaborative filtering algorithm. The challenges of the project were to analyze the sentimental aspects from the users and to convert English colloquial language text to its root form using Stanford NLP (Natural Language Processor), Porter Stemmer Algorithm etc."
-    },
-    "internship" : {
-        "title": "Trainee at Kerala State Electronics Development Corporation Ltd. (KELTRON), Trivandrum, Kerala, India.",
-        "description": "Successfully completed the Internship Training in Power Electronics Group (PEG), Security and Surveillance Group (SSG), Special Products Group (SPG), Enterprise Resource Planning (ERP) and Technology Development Centre."
-    },
-    "extraCurricularActivities" : [
-        "Volunteered for the Kerala Flood Relief campaign in 2018.",
-        "Served as the coordinator of the Spot Presentation event conducted as part of the College Fest “Aagneya”.",
-        "Actively coordinated and organized the IT Department Fest “Inceptra” and the Inter College Fest “Aagneya”.",
-        "Served as a member of Indian Society for Technical Education (ISTE)."
-    ]
+  "academicProject": {
+    "title": "Preference Based Service Recommendation System (PBSR)",
+    "description": "The Project focused on providing recommendations to users based on a user-based collaborative filtering algorithm. The challenges of the project were to analyze the sentimental aspects from the users and to convert English colloquial language text to its root form using Stanford NLP (Natural Language Processor), Porter Stemmer Algorithm etc."
+  },
+  "positionOfResponsibilities": [
+    "Was responsible for the UI team in the absence of the team lead during the project period at Infosys (2021).",
+    "Was responsible for the fundraising and coordination of the Spot Presentation event conducted as part of the college fest 'Aagneya' (2015).",
+    "Actively coordinated and organised the IT department fest Inceptra and the inter-college fest 'Aagneya' (2012 - 2016).",
+    "Volunteered for clean-the-city programs, food relief volunteering program, etc."
+  ]
 }

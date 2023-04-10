@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 //import { HttpModule } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from "@angular/common";
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
@@ -17,6 +17,7 @@ import { InterestsComponent } from './interests/interests.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AcademicsComponent } from './academics/academics.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -29,16 +30,17 @@ import { AcademicsComponent } from './academics/academics.component';
     InterestsComponent,
     AchievementsComponent,
     SkillsComponent,
-    AcademicsComponent
+    AcademicsComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

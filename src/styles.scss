@@ -1,56 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background: #ebebeb   url(./assets/images/background.jpg) no-repeat;
-    //background-size: cover;
-    //background-position: center;
-    background-position: 100% -5%;
-    height: 100vh;
-    font-size: 16px;
-    color: #042331;
-    font-family: "seguor";
+  //background: #ebebeb url(./assets/images/background.jpg) no-repeat;
+  //background-size: cover;
+  //background-position: center;
+  background-position: 100% -5%;
+  height: 100vh;
+  font-size: 16px;
+  color: #042331;
+  font-family: "seguor";
 }
 
 .title {
-    font-size: 18px;
-    width: 65%;
-    font-weight: bold;
-    color: #042331;
+  font-size: 18px;
+  font-weight: bold;
+  color: #042331;
 }
 
 h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .list {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .table {
-    display: flex;
-    margin: 20px 0px;
-    color: #042331 !important;
+  display: flex;
+  margin: 20px 0px;
+  color: #042331 !important;
 }
 
 .value {
-    flex: 1;
+  flex: 1;
 }
 
 .label {
-    flex: 1;
+  flex: 1;
 }
 
-.flex-item{
-    display: flex;
+.flex-item {
+  display: flex;
+}
+
+.container {
+  margin-top: 2%;
 }
 
 @media only screen and (max-width: 360px) {
-    .table {
-        display: inline;
-        line-height: 2.5;
-    }
-    .techskills {
-        text-decoration: underline;
-    }
+  .table {
+    display: inline;
+    line-height: 2.5;
+  }
+  .techskills {
+    text-decoration: underline;
+  }
 }
-

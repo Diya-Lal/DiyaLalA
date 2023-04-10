@@ -1,2 +1,20 @@
-<h1>DIYA LAL AMMIANICKAL</h1>
-<button routerLink = "/about" type="button" class="btn btn-primary know-more">Know More</button>
+<div class="home-container" id="home">
+  <div>
+    <h1>
+      <span style="--i: 1">H</span><span style="--i: 2">E</span
+      ><span style="--i: 3">L</span><span style="--i: 4">L</span
+      ><span style="--i: 5">O</span><span style="--i: 6">,</span>
+    </h1>
+    <h3>I AM DIYA LAL AMMIANICKAL</h3>
+  </div>
+  <div class="know-more-container">
+    <h6>Would you like to know more about me?</h6>
+    <button
+      type="button"
+      class="btn btn-primary know-more"
+      (click)="handleKnowMore($event)"
+    >
+      Click Here
+    </button>
+  </div>
+</div>

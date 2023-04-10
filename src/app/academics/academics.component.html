@@ -1,14 +1,14 @@
-<div class="academics title">
-    <h2>My Academics</h2>
-    <div class="list" *ngFor = "let item of academics"> 
-        <div class="list-item">
-            <h4>{{item.degree}} - {{item.subject}}</h4>
-            <h5>{{item.college}}</h5>
-            <div class="flex-item">
-                <h6>{{item.period}}</h6>
-                <h6 id="item-margin">{{item.location}}</h6>
-            </div>
-            <h5>Score: {{item.score}}</h5>
-        </div> 
-    </div>   
+<div class="title" id="academics">
+  <h2>My Academics</h2>
+  <div class="list" *ngFor="let item of academics">
+    <div class="list-item">
+      <h4>{{ item.degree }} - {{ item.subject }}</h4>
+      <h5>{{ item.college }}</h5>
+      <div class="flex-item">
+        <h6>{{ item.period }}</h6>
+        <h6 id="item-margin">{{ item.location }}</h6>
+      </div>
+      <h5>Score: {{ item.score }}</h5>
+    </div>
+  </div>
 </div>

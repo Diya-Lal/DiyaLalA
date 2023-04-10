@@ -1,0 +1,53 @@
+<div class="title" id="projects">
+  <h2>My Personal Projects</h2>
+  <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="../../assets/images/DFlix.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">DFlix</h5>
+          <p class="card-text">
+            Dflix is a movie app inspired by the popular movie streaming service
+            netflix.. It uses the popular movie database 'TMDB' to display the
+            trending, upcoming and top rated movies, along with the detals like
+            cast, rating, genre, etc. It also uses chart.js to graphically
+            display the movies based on popularity in each language. It uses
+            firebase authentication to login/signup users so that they can
+            whislist thei favourite movies.
+          </p>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-primary show-more">
+            <small class="text-body-secondary"> Show More</small>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="card-group">
+    <div class="card" *ngFor="let project of projects">
+      <img
+        src="../../assets/images/{{ project.image }}.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <p class="card-text">
+          {{ project.details }}
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="{{ project.githubLink }}">
+          <button type="button" class="btn btn-primary show-more">
+            <small class="text-body-secondary"> Show More</small>
+          </button></a
+        >
+      </div>
+    </div>
+  </div>
+</div>

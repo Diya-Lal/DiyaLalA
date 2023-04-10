@@ -1,4 +1,19 @@
-<app-sidebar></app-sidebar>
-<div class="details">
-    <router-outlet></router-outlet>
+<app-sidebar
+  (profileItemEmitted)="slideHandler($event)"
+  (sideBarToggled)="sideBarToggled($event)"
+></app-sidebar>
+<div class="details" #details>
+  <app-home (knowMoreClicked)="slideHandler($event)"></app-home>
+  <app-about></app-about>
+  <app-experience></app-experience>
+  <app-academics></app-academics>
+  <app-skills></app-skills>
+  <app-projects></app-projects>
+  <app-achievements></app-achievements>
+  <app-contact></app-contact>
+  <div class="footer">
+    <span (click)="slideHandler('home')"
+      ><img src="../assets/images/arrow-up.svg" />To the top</span
+    >
+  </div>
 </div>

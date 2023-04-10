@@ -1,18 +1,12 @@
-<div class="skills title">
-    <h2>My Skills</h2>
-    <h3>Technical Skills</h3>
-    <div class="table" *ngFor = "let item of technicalsSkills">
-        <div class="label techskills">
-            <i  aria-hidden="true">&nbsp;&nbsp;{{item.type}}</i>
-        </div>
-        <div class="value">
-            <label>{{item.value}}</label>
-        </div>
+<div class="title" id="skills">
+  <h2>My Skills</h2>
+  <h3>Technical Skills</h3>
+  <div class="table" *ngFor="let item of technicalsSkills">
+    <div class="label techskills">
+      <i aria-hidden="true">&nbsp;&nbsp;{{ item.type }}</i>
     </div>
-    <h3>Soft Skills</h3>
-    <div class="table" *ngFor = "let softSkill of softSkills">
-        <div class="label">
-            <i  aria-hidden="true">&nbsp;&nbsp;{{softSkill}}</i>
-        </div>
+    <div class="value">
+      <label>{{ item.value }}</label>
     </div>
+  </div>
 </div>
