@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "DFlix",
+      "details": "Dflix is a movie app inspired by the popular movie streaming service netflix.. It uses the popular movie database 'TMDB' to display the trending, upcoming and top rated movies, along with the detals like cast, rating, genre, etc. It also uses chart.js to graphically display the movies based on popularity in each language. It uses firebase authentication to login/signup users so that they can whislist thei favourite movies.",
+      "image": "DFlix",
+      "githubLink": "https://github.com/Diya-Lal/Dflix"
+    },
+    {
+      "title": "DStore",
+      "details": "DStore is a bookstore application using MEAN (MongoDB, Express, Angular, Node). The user can browse through the set of books, add them to cart, and purchase them as needed.",
+      "image": "DStore",
+      "githubLink": "https://github.com/Diya-Lal/Bookstore-MEAN"
+    }
+  ]
+}
